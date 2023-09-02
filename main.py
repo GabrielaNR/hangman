@@ -25,7 +25,7 @@ for letra in chosen_word:
 
 #lista a ser mostrada
 for letra in chosen_word:
-  display.append("#")
+  display.append("#") 
 print(f"The word is {''.join(display)}.")
 print(stages[6])
 while not end_game:
